@@ -1,7 +1,7 @@
 <template>
    <div style="display: flex;">
       <div class="header-left">
-            <RouterLink class="header-item" to="/admin" exact-active-class="active">Dashboard</RouterLink>
+            <RouterLink class="header-item" to="/admin/dashboard" exact-active-class="active">Dashboard</RouterLink>
             <RouterLink class="header-item" to="/admin/manage-category" exact-active-class="active">Manager Category</RouterLink>
             <RouterLink class="header-item" to="/admin/manage-product" exact-active-class="active">Manager Product</RouterLink>
         </div>
